@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "descripcion": "Lavarse los dientes",
+    "xp": 20,
+    "completada": false
+  },
+  {
+    "id": 2,
+    "descripcion": "Tender la cama",
+    "xp": 20,
+    "completada": false
+  },
+  {
+    "id": 3,
+    "descripcion": "Bañarse",
+    "xp": 20,
+    "completada": false
+  },
+  {
+    "id": 4,
+    "descripcion": "Desayunar",
+    "xp": 20,
+    "completada": false
+  },
+  {
+    "id": 5,
+    "descripcion": "Hacer tarea",
+    "xp": 20,
+    "completada": false
+  }
+]

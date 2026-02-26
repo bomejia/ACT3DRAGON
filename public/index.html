@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tu Dragon Diario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1 class="titulo-principal">🐉 TU DRAGON DIARIO 🐉</h1>
+
+<div id="inicio" class="inicio">
+    <h2>ELIGE EL NOMBRE DE TU DRAGON</h2>
+    <input type="text" id="nombre" placeholder="Nombre del dragon">
+    <br><br>
+    <button onclick="comenzar()">COMENZAR AVENTURA</button>
+</div>
+
+<div id="juego" class="container oculto">
+
+    <div class="izquierda">
+        <h2 id="titulo"></h2>
+        <img id="imagen">
+        <div class="info">Nivel: <span id="nivel"></span></div>
+        <div class="info">XP: <span id="xp"></span></div>
+
+        <div class="barra">
+            <div id="progreso" class="progreso"></div>
+        </div>
+
+        <div id="mensaje" class="mensaje"></div>
+    </div>
+
+    <div class="derecha">
+        <h2>📋 MISIONES DIARIAS</h2>
+        <ul id="lista"></ul>
+        <br>
+        <button type="button" onclick="reiniciarTodo()">
+    REINICIAR TODO
+</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
